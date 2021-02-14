@@ -23,6 +23,8 @@
   * birthdate는 해당 사외이사의 생년월일 (단, TS-2000의 경우 생년월일이 부정확한 경우가 포함되어 있음.)
   
 - FF1_result.csv: FnGuide의 KOSPI+KSE 회사 전체 주식수익률(현금배당반영)을 대상으로 market model로 abnormal return을 산출한 데이터 (2018-01-02 ~ 2021-01-27)
+  * 용량이 커서 일단 Google Drive에 저장
+  https://drive.google.com/file/d/1OAy6d0n1U_YjEBLuAezRvLnbgpdrrofI/view?usp=sharing
 
 - dart_name_list_utf.csv
   * TS-2000의 자산총액 2조 이상인 기업을 대상으로, DART에서 임원자료를 수집한 파일
