@@ -1,10 +1,15 @@
 # Event Study
 
+# Research Note: 연구노트 및 교수님 보고사항 정리 (향후 연구흐름을 참조할 수 있도록 정리)
 
-# File
+# Basic File
 - 파일명 뒤에 "utf"가 붙어있는 것은 Python에서 한국어를 읽을 수 있도록 UTF-8로 인코딩 처리한 것이다. 통상적으로 엑셀에서 한국어를 읽기 위해서는 이 파일을 ANSI 인코딩으로 재변환 필요.
 
 - code_list_utf.csv: FnGuide의 KOSPI+KSE 회사 전체 목록정리 (code: FnGuide 주식부여번호 / conm: 회사명)
+
+- total_market_ret.csv: FnGuide의 KOSPI+KSE 회사 전체의 주식수익률(현금배당고려) 자료 (2018 ~ 2019)
+
+- kospi_ret.csv: KOSPI 지수 수익률
 
 - fnguide_utf.csv: FnGuide에서 추출한 KOSPI+KSE 회사의 자산총액 자료 (2017 ~ 2019)
   * asset: 자산총액 (단위: 천)
@@ -22,4 +27,7 @@
   * TS-2000의 자산총액 2조 이상인 기업을 대상으로, DART에서 임원자료를 수집한 파일
   * 본 파일에는 미등기임원, 등기임원이 섞여있음. 
   * 한편, TS-2000에는 존재하는 회사이고 자산총액 2조를 넘지만, DART에 공시 자체가 되어있지 않거나, DART에 회사는 존재해도 해당년 사업보고서가 존재하지 않는 경우가 있음.
+  
+- outside_director_utf.csv
+  * 일차적으로 TS-2000과 DART의 성별자료를 병합(python code 이용) 후, 병합이 되어있지 않은 사외이사의(left_only) 성별을 수작업으로 보완하여 만든 "사외이사 목록"
   
